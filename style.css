@@ -23,7 +23,7 @@ nav {
   height: 80px;
   line-height: 80px;
   z-index: 111;
-  background-color: lightblue;
+  background-color: whitesmoke;
 }
 .logo {
   display: flex;
@@ -54,7 +54,7 @@ b {
 }
 .navitems li:hover a,
 .links a:hover {
-  color: aqua;
+  color: orangered;
 }
 .links a {
   font-size: 30px;
@@ -163,7 +163,7 @@ button {
   box-shadow: 0 15px 10px rgba(0, 0, 0, 0.4);
 }
 button:hover {
-  background-color: #7f00ff;
+  background-color: black;
 }
 
 @keyframes animateUser {
