@@ -56,12 +56,15 @@ b {
   color: whitesmoke;
 }
 .links a:hover {
-  color: whitesmoke;
+  color: grey;
 }
 .links a {
   font-size: 50px;
-  color: blueviolet;
+  color: black;
   margin: 50px 20px;
+}
+.links a::after {
+  color: grey;
 }
 .wrapper {
   display: flex;
