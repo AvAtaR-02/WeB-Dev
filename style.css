@@ -52,14 +52,16 @@ b {
   text-decoration: none;
   text-transform: capitalize;
 }
-.navitems li:hover a,
+.navitems li:hover a {
+  color: whitesmoke;
+}
 .links a:hover {
-  color: orangered;
+  color: whitesmoke;
 }
 .links a {
-  font-size: 30px;
-  color: #3d535f;
-  margin: 25px 10px;
+  font-size: 50px;
+  color: blueviolet;
+  margin: 50px 20px;
 }
 .wrapper {
   display: flex;

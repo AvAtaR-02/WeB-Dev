@@ -1,5 +1,5 @@
 const typingEffect = new Typed(".multitext", {
-  strings: ["Coder", "Youtuber", "Designer"],
+  strings: ["Coder", "Designer"],
   loop: true,
   typeSpeed: 120,
   backSpeed: 100,
