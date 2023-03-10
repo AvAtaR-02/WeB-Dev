@@ -6,9 +6,10 @@
   font-family: "poppins", sans-serif;
 }
 body {
-  background-image: url("./img.jpg");
+  background-image: url("./img1.jpg");
   background-position: center;
   background-size: cover;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 .container {
@@ -62,6 +63,7 @@ b {
   font-size: 50px;
   color: black;
   margin: 50px 20px;
+  position: relative;
 }
 .links a::after {
   color: grey;
@@ -146,12 +148,12 @@ p {
   display: block;
   width: 90%;
   font-size: 1.2em;
-  color: #3d535f;
+  color: whitesmoke;
 }
 .btns {
   width: 100%;
   position: relative;
-  left: 150px;
+  left: 120px;
 }
 button {
   outline: none;
@@ -183,4 +185,13 @@ button:hover {
     left: 51%;
     width: 155%;
   }
+}
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
 }
