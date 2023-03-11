@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  font-family: "poppins", sans-serif;
+  font-family: "Roboto Slab", serif;
 }
 body {
-  background-image: url("./img1.jpg");
+  /* background-image: url("./img.jpg"); */
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -77,6 +77,9 @@ b {
   padding: 0 10%;
   overflow: hidden;
   background: transparent;
+}
+.wrapper p {
+  color: black;
 }
 .wrapper::before {
   position: absolute;
