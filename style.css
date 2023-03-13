@@ -6,7 +6,7 @@
   font-family: "Roboto Slab", serif;
 }
 body {
-  /* background-image: url("./img.jpg"); */
+  background-image: url("./img.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,12 +28,14 @@ nav {
 }
 .logo {
   display: flex;
-  font-size: 40px;
+  font-size: 45px;
   font-weight: 800;
   color: darkgray;
-  letter-spacing: 3px;
+  letter-spacing: 2px;
   cursor: pointer;
   text-transform: uppercase;
+  text-decoration: none;
+  padding-bottom: 0em;
 }
 b {
   font-size: 70px;
@@ -41,6 +43,7 @@ b {
 }
 .navitems {
   display: flex;
+  padding: auto;
 }
 .navitems li {
   list-style: none;
@@ -79,7 +82,7 @@ b {
   background: transparent;
 }
 .wrapper p {
-  color: black;
+  color: darkviolet;
 }
 .wrapper::before {
   position: absolute;
@@ -145,6 +148,7 @@ h1 {
 }
 .multitext {
   color: #7f00ff;
+  padding: 50px;
   text-transform: capitalize;
 }
 p {
@@ -197,4 +201,28 @@ button:hover {
   background-color: black;
   color: white;
   text-align: center;
+}
+.download {
+  color: white;
+  text-decoration: none;
+}
+/* .footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #7f00ff;
+  padding: 10px;
+  font-size: 14px;
+} */
+.footer-left a {
+  margin-right: 10px;
+  color: whitesmoke;
+  text-decoration: none;
+}
+.footer-right {
+  color: beige;
+  text-decoration: none;
+}
+.hire {
+  color: white;
+  text-decoration: none;
 }
